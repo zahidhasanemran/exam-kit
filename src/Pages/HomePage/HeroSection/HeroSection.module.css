@@ -1,0 +1,22 @@
+.HeroSection{
+    height: calc(100% - 75px);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    /* padding: 50px 0px; */
+}
+
+.heroLeft{}
+.heroLeft h6{
+    color: #22b39d;
+}
+.heroRight{}
+.heroImgWrapper{
+    text-align: right;
+}
+.heroImgWrapper img{
+    max-height: 290px;
+}
+
+
+

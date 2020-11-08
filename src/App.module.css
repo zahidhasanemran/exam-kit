@@ -1,0 +1,23 @@
+.App{
+    color: inherit;
+}
+
+
+:global(.color) {
+    color: red;
+}
+:global(.background) {
+    background: green;
+}
+
+/* 
+:global {
+    .color{
+      color: red;
+    },
+    .background{
+      background: green;
+    }
+  }
+  
+   */

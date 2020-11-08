@@ -1,0 +1,32 @@
+.colorHeading{
+    background: #fff;
+    padding: 50px 0px;
+}
+
+.productWrapper{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.imageWrapper{
+    position: relative;
+}
+.imageWrapper img{
+    max-width: 100%;
+}
+
+.title{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h6{
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: all-scroll;
+}

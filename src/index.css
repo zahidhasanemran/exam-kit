@@ -1,13 +1,84 @@
-body {
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+span,
+a,
+strong{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 33px;
+  color: #474747;
+  letter-spacing: 1px;
+
+}
+
+body{
+  background: #fff;
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+html,body, .dummy{
+  height: 100vh;
+}
+
+a:hover,
+a:focus{
+  text-decoration: none;
+  color: #333;
+  /* #2C9AD8 */
+}
+
+p{
+  font-size: 15px;
+  line-height: 28px;
+}
+
+.section-title{
+  padding-bottom: 50px;
+}
+
+.slick-dots{
+  transform: translateX(20px);
+}
+
+.LinkBtn:active,
+.LinkBtn:focus{
+  border: .5px solid #22b39d;
+
+}
+.LinkBtn{
+  border: .5px solid #22b39d;
+  display: inline-block;
+  border-radius: 4px;
+  padding: 7px 20px;
+  font-size: 14px;
+  color: #22b39d;
+  transition: all .4s linear;
+  background: #fff;
+}
+
+.LinkBtn:hover{
+  background: #22b39d!important;
+  color: #fff!important;
+  transform: translateX(1px);
 }

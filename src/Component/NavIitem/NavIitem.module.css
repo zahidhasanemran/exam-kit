@@ -1,0 +1,12 @@
+.NavIitem{
+    color: inherit;
+}
+
+.NavIitem a.active{
+    color: #22b39d;
+}
+.NavIitem a{
+    display: inline-block;
+    padding: 25px 30px;
+    color: #333;
+}

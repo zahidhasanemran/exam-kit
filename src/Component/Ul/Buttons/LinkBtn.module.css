@@ -1,0 +1,15 @@
+.LinkBtn{
+    display: inline-block;
+    border: .5px solid #22b39d;
+    border-radius: 4px;
+    padding: 7px 20px;
+    font-size: 14px;
+    color: #22b39d;
+    transition: all .4s linear;
+}
+
+.LinkBtn:hover{
+    background: #22b39d;
+    color: #fff!important;
+    transform: translateX(1px);
+}

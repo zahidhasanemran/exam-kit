@@ -1,0 +1,26 @@
+.Navbar{
+    background: #fff;
+    box-shadow: 0 3px 59px 0 rgba(0,0,0,.15);
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+.logo{
+    width: 130px;
+}
+
+
+.navMenu ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navMenu{
+    width: calc(100% - 150px);
+}
+
+.navWrapper{
+    display: flex;
+    align-items: center;
+}

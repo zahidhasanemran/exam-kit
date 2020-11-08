@@ -1,0 +1,25 @@
+.InputFileWrapper{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #dddd;
+    padding-bottom: 15px;
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+}
+.InputFileWrapper input{}
+.img_wrapper{}
+.img_wrapper img{
+    height: 30px;
+}
+
+.crosBtn{}
+.crosBtn button{
+    border: 1px solid #ddd;
+    outline: 0;
+    background: transparent;
+    color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+}

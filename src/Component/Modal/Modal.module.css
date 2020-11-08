@@ -1,0 +1,58 @@
+.ModalWrapper{
+    position: absolute;
+    left:0;
+    top: 0;
+    width:100%;
+    background: rgba(0, 0, 0, 0.048);
+    z-index: 9;
+    transition: .3s linear;
+}
+.ModalSection{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Modal{
+    width:500px;
+    padding: 20px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.modalOpen{
+    transform: scale(1);
+    opacity: 1;
+    visibility: visible;
+    height: 100%;
+}
+
+.modalClose{
+    transform: scale(.5);
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+}
+.header{}
+
+.body{
+    padding: 20px 0px;
+    text-align: center;
+    display: flex;
+}
+.body input{
+    width: 90%;
+    padding: 0 10px;
+}
+.body button{}
+
+
+
+
+
+
+
+
+
